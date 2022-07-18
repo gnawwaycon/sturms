@@ -97,4 +97,4 @@ f0 = [1.0,-5.0,3.0,5.0,9.0,1.0,-2.0]
 print("there are ", nRoots(sturm(f0)), "real roots")
 print("the intervals are ", intervals(sturm(f0)))
 print("the real roots are ", roots(f0,intervals(sturm(f0))))
-print("the complex roots are", complexroots(f0, roots(f0,intervals(sturm(f0)))))
+print("the complex roots are ", complexroots(f0, roots(f0,intervals(sturm(f0)))))
